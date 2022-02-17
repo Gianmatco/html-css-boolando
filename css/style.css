@@ -12,59 +12,15 @@ background-collor:white */
 }
 main{
     width: 90%;
-    margin: 0 auto;
-    padding-top: 6px;
-    text-align: center;
+    margin: 0px auto;
+}
+.box{
+    width: 400px;
+    display: inline-block;
+    height: 500px;
+    margin: 8px;
+}.img-rid{
+    max-width: 100%;
+}
 
 
-}
-.box1{
-    width: 300px;
-    display: inline-block;
-    height: 430px;
-    margin: 8px;
-    background-image: url( ../img/1.webp);
-    background-size: contain; 
-    position: relative;
-    
-}
-.box2{
-    width: 300px;
-    display: inline-block;
-    height: 430px;
-    margin: 8px;
-    background-image: url( ../img/2.webp);
-    background-size: contain; 
-}
-.box3{
-    width: 300px;
-    display: inline-block;
-    height: 430px;
-    margin: 8px;
-    background-image: url(../img/3.webp);
-    background-size: contain; 
-}
-.box4{
-    width: 300px;
-    display: inline-block;
-    height: 430px;
-    margin: 8px;
-    background-image: url(../img/4.webp);
-    background-size: contain; 
-}
-.box5{
-    width: 300px;
-    display: inline-block;
-    height: 430px;
-    margin: 8px;
-    background-image: url(../img/5.webp);
-    background-size: contain; 
-}
-.box6{
-    width: 300px;
-    display: inline-block;
-    height: 430px;
-    margin: 8px;
-    background-image: url(../img/6.webp);
-    background-size: contain; 
-}
