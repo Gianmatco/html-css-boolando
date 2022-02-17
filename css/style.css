@@ -10,3 +10,18 @@ background-collor:white */
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 6px;
+    text-align: center;
+
+
+}
+.box{
+    width: 300px;
+    display: inline-block;
+    height: 450px;
+    margin: 8px;
+    background-color: #eaeaea;
+}
