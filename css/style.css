@@ -18,10 +18,52 @@ main{
 
 
 }
-.box{
+.box1{
     width: 300px;
     display: inline-block;
-    height: 450px;
+    height: 430px;
     margin: 8px;
-    background-color: #eaeaea;
+    background-image: url( ../img/1.webp);
+    background-size: contain; 
+}
+.box2{
+    width: 300px;
+    display: inline-block;
+    height: 430px;
+    margin: 8px;
+    background-image: url( ../img/2.webp);
+    background-size: contain; 
+}
+.box3{
+    width: 300px;
+    display: inline-block;
+    height: 430px;
+    margin: 8px;
+    background-image: url(../img/3.webp);
+    background-size: contain; 
+}
+.box4{
+    width: 300px;
+    display: inline-block;
+    height: 430px;
+    margin: 8px;
+    background-image: url(../img/4.webp);
+    background-size: contain; 
+}
+
+.box5{
+    width: 300px;
+    display: inline-block;
+    height: 430px;
+    margin: 8px;
+    background-image: url(../img/5.webp);
+    background-size: contain; 
+}
+.box6{
+    width: 300px;
+    display: inline-block;
+    height: 430px;
+    margin: 8px;
+    background-image: url(../img/6.webp);
+    background-size: contain; 
 }
