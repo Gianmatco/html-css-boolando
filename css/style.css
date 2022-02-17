@@ -25,6 +25,8 @@ main{
     margin: 8px;
     background-image: url( ../img/1.webp);
     background-size: contain; 
+    position: relative;
+    
 }
 .box2{
     width: 300px;
@@ -50,7 +52,6 @@ main{
     background-image: url(../img/4.webp);
     background-size: contain; 
 }
-
 .box5{
     width: 300px;
     display: inline-block;
