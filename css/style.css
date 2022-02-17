@@ -1,0 +1,12 @@
+/*6 immagini
+aggiungere cuore a img alto a deestra
+sconto:colore rosso
+sostenibilita: colore verde
+background-collor:white */
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
