@@ -1,26 +1,68 @@
-/*6 immagini
-aggiungere cuore a img alto a deestra
-sconto:colore rosso
-sostenibilita: colore verde
-background-collor:white */
-
-/*reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+  /* utility*/
+.debug{
+    border: 1px solid black;
+}
+
+/*corp*/
 main{
-    width: 90%;
-    margin: 0px auto;
+    width: 900px;
+    margin: 30px auto;
+    font-size: 0;
+
 }
-.box{
-    width: 400px;
+.card{
+    width: 300px;
     display: inline-block;
-    height: 500px;
-    margin: 8px;
-}.img-rid{
-    max-width: 100%;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 20px;
+}
+.card-image{
+    position: relative;
+}
+.card-image img{
+    width: 100%;
+}
+.heart{
+    width: 30px;
+    position: absolute;
+    top: 25px ;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    padding: 3px 0;
+}
+.label{
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    color: white;
+}
+.card-discount{
+    background-color: red;
+    padding: 4px 5px;
+   
+}
+.card-tag{
+    background-color: green;
+    padding: 4px 5px;
+  
+}
+.overlay{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-
+.card-image:hover .overlay{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
